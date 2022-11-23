@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		29C096952848EC9B00030AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C096942848EC9B00030AAC /* AppDelegate.swift */; };
 		29C096972848EC9B00030AAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C096962848EC9B00030AAC /* SceneDelegate.swift */; };
-		29C096992848EC9B00030AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C096982848EC9B00030AAC /* ViewController.swift */; };
 		29C0969C2848EC9B00030AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C0969A2848EC9B00030AAC /* Main.storyboard */; };
 		29C0969E2848EC9C00030AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C0969D2848EC9C00030AAC /* Assets.xcassets */; };
 		29C096A12848EC9C00030AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C0969F2848EC9C00030AAC /* LaunchScreen.storyboard */; };
+		29C096A92848EED100030AAC /* GameTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C096A82848EED100030AAC /* GameTVC.swift */; };
+		29C096AB2848EEE700030AAC /* GameDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C096AA2848EEE700030AAC /* GameDetailVC.swift */; };
+		29C096AD2848EF3400030AAC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C096AC2848EF3400030AAC /* Game.swift */; };
+		29DB5746284A0B1B002D430B /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB5745284A0B1B002D430B /* Episode.swift */; };
+		29DB5748284A0B95002D430B /* Subtitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB5747284A0B95002D430B /* Subtitles.swift */; };
+		29DB574A284A0C82002D430B /* Caption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB5749284A0C82002D430B /* Caption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29C096912848EC9B00030AAC /* GameCritic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameCritic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C096942848EC9B00030AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29C096962848EC9B00030AAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29C096982848EC9B00030AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		29C0969B2848EC9B00030AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29C0969D2848EC9C00030AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29C096A02848EC9C00030AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29C096A22848EC9C00030AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C096A82848EED100030AAC /* GameTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTVC.swift; sourceTree = "<group>"; };
+		29C096AA2848EEE700030AAC /* GameDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailVC.swift; sourceTree = "<group>"; };
+		29C096AC2848EF3400030AAC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		29DB5745284A0B1B002D430B /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		29DB5747284A0B95002D430B /* Subtitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtitles.swift; sourceTree = "<group>"; };
+		29DB5749284A0C82002D430B /* Caption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		29C096932848EC9B00030AAC /* GameCritic */ = {
 			isa = PBXGroup;
 			children = (
+				29DB574B284A0D0E002D430B /* Model */,
 				29C096942848EC9B00030AAC /* AppDelegate.swift */,
 				29C096962848EC9B00030AAC /* SceneDelegate.swift */,
-				29C096982848EC9B00030AAC /* ViewController.swift */,
 				29C0969A2848EC9B00030AAC /* Main.storyboard */,
+				29C096A82848EED100030AAC /* GameTVC.swift */,
+				29C096AA2848EEE700030AAC /* GameDetailVC.swift */,
 				29C0969D2848EC9C00030AAC /* Assets.xcassets */,
 				29C0969F2848EC9C00030AAC /* LaunchScreen.storyboard */,
 				29C096A22848EC9C00030AAC /* Info.plist */,
 			);
 			path = GameCritic;
+			sourceTree = "<group>";
+		};
+		29DB574B284A0D0E002D430B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29C096AC2848EF3400030AAC /* Game.swift */,
+				29DB5745284A0B1B002D430B /* Episode.swift */,
+				29DB5747284A0B95002D430B /* Subtitles.swift */,
+				29DB5749284A0C82002D430B /* Caption.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C096992848EC9B00030AAC /* ViewController.swift in Sources */,
+				29C096A92848EED100030AAC /* GameTVC.swift in Sources */,
+				29DB5746284A0B1B002D430B /* Episode.swift in Sources */,
+				29C096AD2848EF3400030AAC /* Game.swift in Sources */,
 				29C096952848EC9B00030AAC /* AppDelegate.swift in Sources */,
 				29C096972848EC9B00030AAC /* SceneDelegate.swift in Sources */,
+				29DB5748284A0B95002D430B /* Subtitles.swift in Sources */,
+				29DB574A284A0C82002D430B /* Caption.swift in Sources */,
+				29C096AB2848EEE700030AAC /* GameDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
